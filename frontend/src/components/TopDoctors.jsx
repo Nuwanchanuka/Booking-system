@@ -10,6 +10,11 @@ const TopDoctors = () => {
             {doctors.slice(0,10).map((item,index) => (
                 <div>
                   <img src={item.image} alt=""/>
+                  <div>
+                    <div>
+                      
+                    </div>
+                  </div>    
 
                 </div>
             ))}
