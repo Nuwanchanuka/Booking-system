@@ -12,7 +12,7 @@ const TopDoctors = () => {
                   <img src={item.image} alt=""/>
                   <div>
                     <div>
-                      
+                      ghjyfygiy
                     </div>
                   </div>    
 
