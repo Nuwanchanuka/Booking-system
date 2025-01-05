@@ -12,8 +12,10 @@ const TopDoctors = () => {
                   <img src={item.image} alt=""/>
                   <div>
                     <div>
-                      ghjyfygiy
+                      <p></p><p>Available</p>
                     </div>
+                    <p>{item.name}</p>
+                    <p>{item.speciality}</p>
                   </div>    
 
                 </div>
