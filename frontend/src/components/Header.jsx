@@ -22,6 +22,9 @@ const Header = () => {
         
             <img className= 'w-full md:absolute bottem-0 h-auto rounded-lg ' src={assets.header_img} alt="" />
         </div>
+           
+
+           
 
       
     </div>
