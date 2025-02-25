@@ -4,7 +4,7 @@ import { AppContext } from '../context/AppContext'
 import { assets } from '../assets/assets'
 import RelatedDoctors from '../components/RelatedDoctors'
 
-const Appointment = () => {
+const Appointments = () => {
 
   const {docId} = useParams()
   const {doctors,currencySymbol} = useContext(AppContext)
@@ -135,4 +135,4 @@ const getAvailableSlots = async () => {
   )
 }
 
-export default Appointment
+export default Appointments
