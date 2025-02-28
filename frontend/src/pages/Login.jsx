@@ -23,10 +23,7 @@ const Login = () => {
         
       }
 
-      <div className='w-full'>
-        <p>Full Name</p>
-        <input className='border-border-zinc-300 rounded w-full p-2 mt-1' type='text' onChange={(e)=>setName(e.target.value) } value={name} required  />
-      </div>
+       
       <div className='w-full'>
         <p>Email</p>
         <input  className='border-border-zinc-300 rounded w-full p-2 mt-1' type='email' onChange={(e)=>setEmail(e.target.value) } value={name}  required />
